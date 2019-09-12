@@ -1,5 +1,13 @@
+@font-face {
+    font-family: "Open Sans Condensed";
+
+    src: url("../font/OpenSansCondensed-Light.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: 'PT Sans', sans-serif, 'Open Sans Condensed', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     line-height: 22px;
     font-size: 14px;
     color: #ffffff;
@@ -36,17 +44,12 @@ h1, h2, p, ul {
     margin: 0
 }
 
-.header-phone p a{
-    /*@font-face*/
+.header-phone p {
     font-family: "Open Sans Condensed";
     color: #767676;
     font-size: 40px;
     line-height: 46px;
-    font-weight: 400;
     letter-spacing: 1px;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
 }
 
 .header-container-nav {
@@ -54,19 +57,19 @@ h1, h2, p, ul {
 }
 
 .header-wrapper-nav {
-
     margin: 0 auto;
 }
 
 .header-wrapper-nav ul {
     margin: 0;
     padding:  26px 0;
+
     display: flex;
     justify-content: center;
 }
 
 .header-wrapper-nav ul li {
-    padding-top: 0 20px;
+    padding-top: 0;
     padding-left: 20px;
     padding-right: 18px;
     list-style: none;
@@ -86,7 +89,6 @@ h1, h2, p, ul {
     text-decoration: none;
     color: #ffffff;
     font-size: 30px;
-    font-weight: 400;
     letter-spacing: 0.75px;
 }
 
@@ -224,9 +226,9 @@ main {
     height: 38px;
 }
 
-
 @media screen and (max-width: 1247px) {
     .main-carousel {
         width: 0;
         height: 0;
+    }
 }
