@@ -1,0 +1,82 @@
+body {
+    font-family: 'PT Sans', sans-serif, 'Open Sans Condensed', sans-serif;
+    line-height: 22px;
+}
+
+.header-container-logo {
+    background-color: #dcdcdc;
+}
+
+.header-wrapper-logo {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header-wrapper-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 0;
+}
+
+.header-logo img {
+    width: 273px;
+    height: 100px;
+}
+
+.header-phone p{
+    font-family: "Open Sans Condensed";
+    color: #767676;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container-nav {
+    background-color: #767676;
+}
+
+
+.header-wrapper-nav {
+    
+    margin: 0 auto;
+}
+
+.header-wrapper-nav ul {
+    margin: 0;
+    padding:  26px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-wrapper-nav ul li {
+    padding-top: 0 20px;
+    padding-left: 20px;
+    padding-right: 18px;
+    list-style: none;
+    border-right: 2px solid #ffffff;
+}
+
+.header-wrapper-nav ul li:first-child {
+    padding-left: 0;
+}
+
+.header-wrapper-nav ul li:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+.header-wrapper-nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+}
+
+.header-wrapper-nav ul li a:hover {
+    text-decoration: underline;
+}
