@@ -1,6 +1,13 @@
 body {
     font-family: 'PT Sans', sans-serif, 'Open Sans Condensed', sans-serif;
     line-height: 22px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
 }
 
 .header-container-logo {
@@ -10,6 +17,7 @@ body {
 .header-wrapper-logo {
     width: 980px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .header-wrapper-items {
@@ -24,6 +32,7 @@ body {
 }
 
 .header-phone p{
+    /*@font-face*/
     font-family: "Open Sans Condensed";
     color: #767676;
     font-size: 40px;
@@ -40,7 +49,7 @@ body {
 
 
 .header-wrapper-nav {
-    
+
     margin: 0 auto;
 }
 
@@ -80,3 +89,102 @@ body {
 .header-wrapper-nav ul li a:hover {
     text-decoration: underline;
 }
+
+.main-carousel img {
+    margin: 0 auto;
+}
+
+
+.main-content {
+    width: 980px;
+    margin: 0 auto;
+    padding: 0 10px
+}
+
+.main-content-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main-content-news {
+    background-color: #767676;
+    display: block;
+    width: 350px;
+    height: 560px;
+}
+
+.main-content-news div {
+    padding: 22px 52px 0 33px;
+}
+
+.main-content-news h2 {
+    font-family: "PT Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 1px;
+    padding-bottom: 38px;
+}
+
+.main-content-news p {
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.main-content-news p span {
+    font-style: italic;
+    font-family: "PT Sans";
+    letter-spacing: 0.35px;
+}
+
+
+.main-content-news-link {
+    text-align: right;
+}
+.main-content-news-link a {
+    color: #ffffff;
+}
+
+.main-content-info {
+    margin: 20px 0 20px 60px;
+    color: #767676;
+}
+
+.main-content-info h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+
+    padding-bottom: 30px;
+}
+
+.main-content-info p {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+main {
+    margin-bottom: 200px;
+}
+
+/*
+div.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    width: 34px;
+    height: 61px;
+    top: 50%;
+    left: 5%;
+    background: url("../images/prev.png") no-repeat; }
+div.owl-carousel .owl-nav button.owl-prev span {
+    font-size: 0; }
+
+div.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    width: 34px;
+    height: 61px;
+    background: url("../images/next.png") no-repeat; }
+div.owl-carousel .owl-nav button.owl-next span {
+    font-size: 0; }
+
+    */
