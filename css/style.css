@@ -5,7 +5,7 @@ body {
     color: #ffffff;
 }
 
-h1, h2 {
+h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
@@ -32,7 +32,11 @@ h1, h2 {
     height: 100px;
 }
 
-.header-phone p{
+.header-phone p {
+    margin: 0
+}
+
+.header-phone p a{
     /*@font-face*/
     font-family: "Open Sans Condensed";
     color: #767676;
@@ -42,6 +46,7 @@ h1, h2 {
     letter-spacing: 1px;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 .header-container-nav {
@@ -80,7 +85,6 @@ h1, h2 {
 .header-wrapper-nav ul li a {
     text-decoration: none;
     color: #ffffff;
-    font-family: "PT Sans";
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 0.75px;
@@ -99,6 +103,7 @@ main {
     height: 400px;
 
     margin: 0 auto;
+    margin-bottom: 30px;
 
     background-image: url("../img/slider.png");
     background-repeat: no-repeat;
@@ -148,7 +153,6 @@ main {
 
 .main-content-news p span {
     font-style: italic;
-    font-family: "PT Sans";
     letter-spacing: 0.35px;
 }
 
@@ -179,6 +183,7 @@ main {
 
 .footer-container {
     background-color: #777777;
+    padding: 50px 0;
 }
 
 .footer-container-section {
@@ -191,6 +196,34 @@ main {
     display: flex;
     justify-content: space-between;
 }
+
+.footer-item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-nav ul {
+    list-style: none;
+}
+
+.footer-nav a {
+    color: #ffffff;
+}
+
+.footer-company-container {
+    display: flex;
+}
+
+.footer-company-container p {
+    padding-left: 10px;
+}
+
+.footer-company img {
+    float: left;
+    width: 36px;
+    height: 38px;
+}
+
 
 @media screen and (max-width: 1247px) {
     .main-carousel {
